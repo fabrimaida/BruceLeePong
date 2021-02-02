@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+}
+#pong{
+  border: 1px solid black;
+  background-repeat: no-repeat;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#btn{
+  font-size: 5rem;
+  color: red;
+  border-radius: 6px;
+  margin-top: 10vh;
+}
+
+#resetbtn{
+  font-size: 5rem;
+  color: red;
+  border-radius: 6px;
+  margin-top: 10vh;
+}
+.wrapper{
+  background-image: url(../img/Pong!.jpg);
+  background-repeat: no-repeat;
+  height: 97vh;
+  width: 99vw;
+}
+
+.hidden{
+  display: none;
+}
